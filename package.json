@@ -1,0 +1,26 @@
+{
+  "name": "json-assign",
+  "author": "Jamen Marzonie",
+  "version": "0.0.0",
+  "description": "Object.assign for JSON files.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamen/json-assign"
+  },
+  "scripts": {
+    "test": "node test"
+  },
+  "private": false,
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.0.1",
+    "eslint-config-google": "^0.6.0"
+  },
+  "dependencies": {
+    "deep-assign": "^2.0.0"
+  }
+}
